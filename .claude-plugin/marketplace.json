@@ -1,17 +1,23 @@
 {
   "name": "yize365-toolbox",
+  "description": "实用工具技能合集 — Windows 磁盘清理、开发效率工具",
   "owner": {
     "name": "yize365"
   },
-  "description": "实用工具技能合集 — Windows 磁盘清理、开发效率工具",
-  "version": "1.0.0",
   "plugins": [
     {
       "name": "disk-cleaner",
-      "source": "https://github.com/yize365/disk-cleaner",
+      "author": {
+        "name": "yize365"
+      },
       "description": "Windows C盘空间分析与动态清理工具。全自动识别缓存/日志/更新器，按安全等级分级清理。零配置，任意 Win10/11 可用。",
-      "version": "1.0.0",
-      "tags": ["windows", "disk", "cleanup", "storage", "cache", "utility"]
+      "category": "utility",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yize365/disk-cleaner.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/yize365/disk-cleaner"
     }
   ]
 }
